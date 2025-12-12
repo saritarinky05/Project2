@@ -371,9 +371,9 @@ btnlog = Button(calc, text="log",width=6,
 			bd=4,command=added_value.log
 			).grid(row=5, column= 5, pady = 1)
 
-btnlog2 = Button(calc, text="log2",width=6,
+btnlog10 = Button(calc, text="log10",width=6,
 			height=2,bg='powder blue',fg='black', font=('Times New Roman',20,'bold'),
-			bd=4,command=added_value.log2
+			bd=4,command=added_value.log10
 			).grid(row=5, column= 6, pady = 1)
 
 btndegrees = Button(calc, text="deg",width=6,
